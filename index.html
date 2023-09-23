@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Project</title>
+    <link rel="stylesheet" href="gym.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+            
+
+        }
+      body {
+        margin: 0%;
+        padding: 0px;
+        background-image: url(./img4.jpg);
+        display: block;
+        font-family: 'Baloo Bhai 2', cursive;
+        background-repeat: no-repeat;
+        
+      }
+
+      .container div.box1 {
+        /* border: 2px solid yellow; */
+        color: rgb(222, 10, 10);
+        display: inline;
+        position: absolute;
+        left: 25px;
+        top: 18px;
+        
+      }
+      .container div.box2 {
+        /* border: 2px solid rgb(23, 190, 82); */
+        color: rgb(222, 10, 10);
+        display: block;
+        width:700px;
+        margin: 15px auto;
+        position: relative;
+        top: 15px;
+        
+      }
+      .container div.box3 {
+        /* border: 2px solid rgb(159, 62, 197); */
+        color: rgb(222, 10, 10);
+        display: inline;
+        position: absolute;
+        right: 50px;
+        top: 40px;
+       
+      }
+      .container div.box1 img{
+        width: 100px;
+        height: 80px;
+        padding:0px;
+        padding:0px;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: rgb(152, 219, 208)
+        
+    }
+    nav ul li a:hover{
+        color: rgb(16, 215, 149);
+    }
+    nav ul li{
+        list-style: none;
+        display: inline;
+        font-size: 22px;
+        padding: 0px 4px;
+        margin: 0px 12px;
+        
+
+      }
+      div.box1 h4{
+        padding:0px;
+        margin:0px;
+        text-align: center;
+        color: rgb(205, 202, 197);
+      }
+      nav ul{
+        margin: 0px;
+        padding: 3px;
+      }
+
+      .btn{
+        width: 100px;
+        cursor: pointer;
+        padding: 4px;
+        margin: 0px 2px;
+        border-radius: 10px;
+        border: 1px solid rgb(30, 32, 30);
+        color: rgb(249, 232, 237);
+        background-color: rgb(65, 60, 32);
+        font-size: 16px;
+      }
+      .btn:hover{
+        color: blueviolet;
+      }
+      #home{
+        text-decoration: underline;
+        color: rgb(10, 229, 156);
+      }
+      input{
+        display: block;
+        width: 250px;
+        margin: 9px auto;
+        border-radius: 6px;
+        text-align: center;
+        font-weight: bold;
+        padding: 2px;
+      }
+      .box4{
+        position: absolute;
+        /* box-sizing: border-box; */
+        right: 300px;
+        top: 190px;
+        border: 2px solid white;
+        border-radius: 10px;
+        width: 300px;
+        display: block;
+        height: 340px;
+      }
+      h1{
+        color: white;
+        text-align: center;
+      }
+      .box4 form .btn{
+        display: block;
+        width: 250px;
+        margin:25px auto ;
+        color: rgb(15, 69, 176);
+        background-color: rgb(226, 218, 209);
+        font-weight: bolder;
+        font-size: x-large;
+      }
+      .box4 form .btn:hover{
+        color: rgb(151, 171, 20);
+      }
+       
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="head">
+        <div class="box1">
+            <img src="logo.png" alt="">
+            <strong><h4>Radhe Gym</h4></strong>
+            
+        </div>
+        <div class="box2">
+            <nav>
+                <ul>
+                  <li id="home"><a href="#" class="elements">Home</a></li>
+                  <li><a href="#" class="elements">Services</a></li>
+                  <li><a href="#" class="elements">Health calculator</a></li>
+                  <li><a href="#" class="elements">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="box3" >
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Emai Us</button>
+        </div>
+      </header>
+      <div class="box4" >
+        <h1>Best Gym In Agra</h1>
+        <form action="backend.php btn" >
+            
+            <input type="text" placeholder="Enter Your Name">
+            <input type="text" placeholder="Age">
+            <input type="text" placeholder="Locality">
+            <input type="text" placeholder="Contact Number">
+            <input type="text" placeholder="Email Id">
+            <button class="btn">Submit</button>
+        </form>
+      </div>
+      
+    
+      
+    </div>
+  </body>
+</html>
